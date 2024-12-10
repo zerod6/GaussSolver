@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="GaussSolver.exe" version="1.0.0.0" publicKeyToken="5f66dc0a89f131dc" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="GaussSolver" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="GaussSolver.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Параметры манифеста UAC
+          Если нужно изменить уровень контроля учетных записей Windows, замените 
+          узел requestedExecutionLevel одним из следующих значений.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+        Если нужно использовать виртуализацию файлов и реестра для обратной
+             совместимости, удалите узел requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GaussSolver.exe" size="30632">
+      <assemblyIdentity name="GaussSolver" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>ufMZGlBw+XqadeCHsLzJ9iym3SbNo0yCM+V1Z6eXOKs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="GaussSolver.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=ZD6-PC\annk" issuerKeyHash="dd98cf690661db1b931b8ef99f6b634c821f8c78" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>LYUkWOMi33oiM/g8Ha9OICoJctkf4GjBO8fqMl+MbLo=</DigestValue></Reference></SignedInfo><SignatureValue>Qw9sGbIw67lTgr9TJEPQLPjTSKWFeSwedrmVItMQeNN+8K4ElwyQ0ul8PHQqmaIseoTC54vDhMgoznTvkUiX1/zyousJL/nHH7Qalcrz4gcGx69OL8kFLeU/BOT+riNhHhysq8E0oDGu2y7kn1YFVUKodtK4T5h5UnITst+uWT0=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>uwhIyIImylocUPs+Bj91uJKdqEEuid5X5IoXvEzM6nAdBWwxcaYD9xpCC8/+UfSGsRo2illmFoVtuiCIX5Jc8Ix8lJJqBCi1zgZ/b6Nu8GYJ1aJ5bWqZ4mEiT1kWi1dF9/KF74ro1T4NK2Ir84dEfgK3UviYUPcTfTpk5kbez3E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="ba6c8c5f32eac73bc168e01fd972092a204eaf1d3cf833227adf22e35824852d" Description="" Url=""><as:assemblyIdentity name="GaussSolver.exe" version="1.0.0.0" publicKeyToken="5f66dc0a89f131dc" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=ZD6-PC\annk</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>EpOTEl7+wNPld38S+g0Eb4zrGT8Xov7Sy4dJZgCZYuQ=</DigestValue></Reference></SignedInfo><SignatureValue>g3WJuuKL39mHfLQMMAI96kWoSV2RNBLJm5K2g0obHft0xDWPDbBn37gBERrRuAUP53d1L7f3OGxS6ZLBs/gQ7uimkMrprE+I5sqxVm7L8qbOlpH4MBYYN9JCJiCkel38J7pvuqBhErkLkZpZrK78FDV9cg7Ou6t0ZUyp7XwCN3s=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>uwhIyIImylocUPs+Bj91uJKdqEEuid5X5IoXvEzM6nAdBWwxcaYD9xpCC8/+UfSGsRo2illmFoVtuiCIX5Jc8Ix8lJJqBCi1zgZ/b6Nu8GYJ1aJ5bWqZ4mEiT1kWi1dF9/KF74ro1T4NK2Ir84dEfgK3UviYUPcTfTpk5kbez3E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBxTCCAS6gAwIBAgIQbppgnQo+XZhJ11TcBliwiDANBgkqhkiG9w0BAQsFADAhMR8wHQYDVQQDHhYAWgBEADYALQBQAEMAXABhAG4AbgBrMB4XDTI0MTIwOTIzNTQzM1oXDTI1MTIxMDA1NTQzM1owITEfMB0GA1UEAx4WAFoARAA2AC0AUABDAFwAYQBuAG4AazCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAuwhIyIImylocUPs+Bj91uJKdqEEuid5X5IoXvEzM6nAdBWwxcaYD9xpCC8/+UfSGsRo2illmFoVtuiCIX5Jc8Ix8lJJqBCi1zgZ/b6Nu8GYJ1aJ5bWqZ4mEiT1kWi1dF9/KF74ro1T4NK2Ir84dEfgK3UviYUPcTfTpk5kbez3ECAwEAATANBgkqhkiG9w0BAQsFAAOBgQBJRprIsdSSu2I0m3tP57/qT06XXElEprwxWSnI+W7wHqcC4HW5hBCypbf8497KoNoHbHXdfZZD2voZX3F8VUsylM4pKnOIOdQPKZPGLpYrLB+6fs0UGdVUCp1LrsZ26n8Pn2t71f423cj9v7QwPCbTsXuxevUScHfvh+LlY7o7DA==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
